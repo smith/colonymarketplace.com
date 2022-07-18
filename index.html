@@ -1,77 +1,108 @@
-<meta charset="utf-8" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Smokum&family=Raleway&display=swap"
-  rel="stylesheet"
-/>
-<style>
-  body {
-    background-color: rgb(185, 187, 186);
-    margin: 2rem;
-
-    font-family: Raleway, Helvetica, sans-serif;
-    font-size: 32px;
-  }
-  header {
-    margin: auto;
-    text-align: center;
-    max-width: 500px;
-    font-family: Smokum, serif;
-    text-transform: uppercase;
-    font-size: 32px;
-    white-space: nowrap;
-    letter-spacing: 0.25rem;
-  }
-  h1 {
-    margin: 0;
-    margin-bottom: 1rem;
-  }
-  main {
-    margin: auto;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 40% 40%;
-    grid-row: auto auto;
-    grid-column-gap: 2rem;
-    grid-row-gap: 2rem;
-  }
-  img {
-    border: 1px solid rgba(0, 0, 0, 0.3);
-  }
-  .comingsoon {
-    text-align: center;
-    line-height: 1.5;
-  }
-  a {
-    color: rgb(135, 81, 68);
-  }
-  p {
-    padding: 5rem;
-  }
-  @media screen and (max-width: 1000px) {
-    main {
-      display: block;
-    }
-    img {
-      margin-bottom: 1em;
-    }
-  }
-</style>
-<title>Colony Market Place—South Amana, IA</title>
-<header><h1>Colony Market Place</h1></header>
-<main>
-  <p>
-    Amana food, favorite beverages, gourmet foods and specialty shop, historic
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Colony Market Place—South Amana, IA</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=668px" />
+    <meta
+      name="description"
+      content="Amana food, favorite beverages, gourmet foods and specialty shop, historic
     old town well—all in this quaint setting in a scenic little village in the
-    Amana Colonies.
-  </p>
-  <img src="exterior.jpg" width="100%" />
-  <img src="interior.jpg" width="100%" />
-  <p class="comingsoon">
-    South Amana, IA<br />
-    <em>Coming Soon</em><br />
-    <a href="mailto:info@colonymarketplace.com">info@colonymarketplace.com</a>
-  </p>
-</main>
+    Amana Colonies."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smokum&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: rgb(185, 187, 186);
+        margin: 2rem;
+
+        font-family: Raleway, Helvetica, sans-serif;
+        font-size: 32px;
+      }
+      header {
+        margin: auto;
+        text-align: center;
+        font-family: Smokum, serif;
+        text-transform: uppercase;
+        font-size: 32px;
+        white-space: nowrap;
+        display: block;
+        margin-bottom: 1rem;
+      }
+      h1 {
+        color: rgb(185, 187, 186);
+        background-color: black;
+        padding: 0.5rem;
+        margin: 0;
+        margin-bottom: 1rem;
+        border-radius: 5px;
+        letter-spacing: 0.2rem;
+        display: inline;
+      }
+      main {
+        margin: auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 668px 668px;
+        grid-row: auto auto;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+      }
+      img {
+        border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+      .comingsoon {
+        text-align: center;
+        line-height: 1.5;
+      }
+      a {
+        color: rgb(135, 81, 68);
+      }
+      p {
+        padding: 5rem;
+      }
+      @media screen and (max-width: 1000px) {
+        main {
+          grid-template-columns: 100%;
+        }
+
+        p {
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <header><h1>Colony Market Place</h1></header>
+  <main>
+    <p>
+      Amana food, favorite beverages, gourmet foods and specialty shop, historic
+      old town well—all in this quaint setting in a scenic little village in the
+      Amana Colonies.
+    </p>
+    <img
+      alt="Exterior view of Colony Market Place from the past"
+      src="exterior.webp"
+      width="664px"
+      height="405px"
+    />
+    <img
+      alt="Interior view of Colony Market Place from the past"
+      src="interior.webp"
+      width="668px"
+      height="423px"
+    />
+    <p class="comingsoon">
+      South Amana, IA<br />
+      <em>Coming Soon</em><br />
+      <a href="mailto:info@colonymarketplace.com">info@colonymarketplace.com</a>
+    </p>
+  </main>
+</html>
